@@ -2,7 +2,7 @@
 QUESTION NO.1 
 Write a program that takes two or more sets as input and produces set
 operations like union, intersection, difference and symmetric difference as
-its output.
+its output
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,6 +11,7 @@ void getIntersection(int [], int []);
 void getDifference(int [], int [], int, int);
 void getSymDifference(int [], int []);
 int i, j, sizeA, sizeB, to, found = 0;
+
 int main() {
     int setA[20], setB[20], choice;
     printf("Enter the size of set A: ");
